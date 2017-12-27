@@ -2,14 +2,18 @@
 
 ## Setup
 
-#### Setting up the project
+#### Prerequisites
+1. Mac Command Line Tools `xcode-select --install`
+2. [nvm](https://github.com/creationix/nvm) `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash`
 
-1. Install [Jekyll](http://jekyllrb.com/) `gem install jekyll`
-2. Install [Gulp](http://gulpjs.com/) `npm install -g gulp`
-3. Clone the repo
-4. Install all dev dependencies `npm install`
-5. Build all of the assets `gulp build`
-6. Open a locally hosted copy of the files in your browser `gulp serve`
+#### Setting up the project
+1. Get the right node version `nvm use`
+2. Install [Jekyll](http://jekyllrb.com/) `gem install jekyll`
+3. Install [Gulp](http://gulpjs.com/) `npm install -g gulp`
+4. Clone the repo
+5. Install all dev dependencies `npm install`
+6. Build all of the assets `gulp build`
+7. Open a locally hosted copy of the files in your browser `gulp serve`
 
 ## Development
 - Use `gulp` to build your files and watch your source files to have them be built automatically
