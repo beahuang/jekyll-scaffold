@@ -4,11 +4,11 @@
 
 #### Prerequisites
 1. Mac Command Line Tools `xcode-select --install`
-2. [nvm](https://github.com/creationix/nvm) `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash`
 3. Install [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+2. Install [nvm](https://github.com/creationix/nvm) using Homebrew `brew install nvm`
 4. Install [Yarn](https://yarnpkg.com/) `brew install yarn`
 5. Install [Jekyll](http://jekyllrb.com/) `gem install jekyll`
-6. Install [Gulp](http://gulpjs.com/) `npm install -g gulp`
+6. Install [Gulp](http://gulpjs.com/) `npm install -g gulp-cli`
 
 #### Setting up the project
 1. Clone the repo
