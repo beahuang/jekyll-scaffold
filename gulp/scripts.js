@@ -13,7 +13,7 @@ module.exports = gulp => {
   gulp.task( 'scripts', () => {
 
   let babel = babelify.configure({
-    presets: ['es2015', 'es2016']
+    presets: ['env']
   });
 
   let browse = browserify({
